@@ -1,13 +1,14 @@
 //begin quiz button
 let start = document.querySelector("#btn");
+console.log("hello")
 
 //quiz
 
-let quiz= docmument.querySelector("#quiz");
+let quiz= document.querySelector("#quiz");
 let time= document.querySelector ("#timer");
 
 //questions
-var questionText = documeny.querySelector ("#questionText");
+var questionText = document.querySelector ("#questionText");
 
 
 //choice
@@ -23,7 +24,9 @@ let timer=0;
 let interval=0;
 //click begin button
 start.addEventListener("click", ()=>{
-    start.style.display ="none";
+    document.querySelector(".container").style.display="none"
     quiz.style.display= "block";
 });
+
+
 
