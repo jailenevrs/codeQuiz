@@ -15,6 +15,7 @@ body{
 }
 
 .container{
+    text-align: center;
     height:auto;
     width: auto;
 
@@ -40,15 +41,14 @@ body{
 }
 
  #quiz{
-    display: block;
+    display: none;
     height: auto;
     width: 580px;
     padding: 20px;
-    display:block;
     background: peachpuff;
     height: 480px;
     position: relative;
-    display: none;
+    
  }
 
  #quiz #quizHeader{
@@ -101,6 +101,7 @@ body{
     border: 1px solid #b0c4d8;
     border-radius: 15px 7px;
     margin: 2px 0 0 27px;
+    display: none;
 }
 
  #quiz #questions{
@@ -108,6 +109,7 @@ body{
     top:90px;
     display: flex;
     flex-direction: row;
+    display: none;
 
 }
 
@@ -141,9 +143,9 @@ margin: 0 10px;
     width:535px;
     background:#fafafa;
     line-height:50px;
-    margin: 10px 0;
+    margin:10px 0;
     border-radius: 7px;
-    padding: 0 15px;
+    padding: 10px;
     font-size:20px;
     overflow:hidden;
     border: 1px solid;
