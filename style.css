@@ -11,26 +11,50 @@ body{
     display:grid;
     place-items:center;
     height: 100vh;
-    background-color: blanchedalmond;
+    background-color: #f5cac2;
 }
 
 .container{
     text-align: center;
     height:auto;
     width: auto;
-
+    max-width: 80rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: #ed7966;
+    border-style: solid;
+    padding: 200px;
 }
 
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 60px;
+    width: 100%;
+    background: #fafafa;
+    position: absolute;
+    top:0;
+    left:0;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 4px 0;
+    color: #5dbea3;
+    padding-left: 40px;
+    
+}
+
+
 #btn{
-    height: 70px;
-    width:250px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
     text-align: center;
     padding:20px 0;
     font-size: 23px;
     font-weight: 700;
     border-radius: 30px 10px;
     cursor: pointer;
-    background: #5dbea3;
+    background: #fae5df;
     color: #000;
     border: 2px solid;
     
@@ -45,6 +69,7 @@ body{
     height: auto;
     padding: 20px;
     background: peachpuff;
+
     
  }
 
@@ -59,12 +84,15 @@ body{
     align-items: center;
     flex-direction: row;
     border-radius: 4px 0;
+    padding-left: 30px;
+  
  }
 
 #quiz #quizHeader h5 {
     font-size: 30px; 
     margin: 0 20px;
     color: #5dbea3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
