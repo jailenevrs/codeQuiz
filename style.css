@@ -86,7 +86,7 @@ body{
     border-radius: 4px 0;
     padding-left: 30px;
   
- }
+ } 
 
 #quiz #quizHeader h5 {
     font-size: 30px; 
@@ -229,3 +229,6 @@ margin: 0 10px;
 }
 
 
+#highScoresForm{
+    visibility: hidden;
+}

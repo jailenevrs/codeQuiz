@@ -23,6 +23,7 @@
     <div id="quiz">
         <div id="quizHeader">
             <h5>Code Quiz</h5>
+            <p id="progressText"></p>
             <div id="timer">
                 <h6>Time Left </h6>
                 <h6 id="timeLeft"> 00</h6>
@@ -33,14 +34,19 @@
 
                 <!-- question choices-->
                 <div id="choiceList">
-                    <h4 class="choiceOption" id="choiceA">Number and strings</h4>
-                    <h4 class="choiceOption" id="choiceB">Other arrays</h4>
-                    <h4 class="choiceOption" id="choiceC">Booleans</h4>
-                    <h4 class="choiceOption" id="choiceD">All of the above</h4>
-                    <!--answers-->
+                    <h4 class="choiceOption" data-number="A">Number and strings</h4>
+                    <h4 class="choiceOption" data-number="B">Other arrays</h4>
+                    <h4 class="choiceOption" data-number="C">Booleans</h4>
+                    <h4 class="choiceOption" data-number="D">All of the above</h4>
+                    
 
-
-
+                    <!--End of quiz-->
+                    <form id="highScoresForm" >
+                        <h2>Save Your Score!</h2>
+                        <label for="username">Enter your name:</label>
+                        <input type="text" id="username" name="username">
+                        <button type="submit" id="saveButton">Save Score</button>
+                    </form>
                 </div>
             </div>
         </div>
